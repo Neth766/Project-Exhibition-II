@@ -9,6 +9,8 @@ This project demonstrates how to test a deliberately vulnerable web application 
 
 The goal is educational: understand how blind SQL injection works, how scanners detect it, and how to interpret scan reports.
 
+> **Note:** The project presentation slides (PPT/PPTX) are attached with this submission.
+
 ## Project Structure
 
 ```text
@@ -295,4 +297,6 @@ nikto -h http://localhost:8081
 Use these techniques only in authorized environments (like DVWA lab instances you own or have explicit permission to test).
 
 Unauthorized scanning/testing is illegal and unethical.
+
+
 
