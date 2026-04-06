@@ -1,0 +1,16 @@
+# Python cache/artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Large local dataset (keep outside Git; add download instructions in README)
+rbsqli_dataset/*.csv
+rbsqli_dataset/*Zone.Identifier
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

