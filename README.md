@@ -3,7 +3,7 @@
 ## Project Overview
 This project demonstrates how to test a deliberately vulnerable web application (DVWA) for SQL Injection vulnerabilities using:
 
-- Custom Python scripts (`blind_sqli.py`, `dataset_analyzer.py`, `dataset_analyzer2.py`)
+- Custom Python scripts (`blind_sqli.py`, `main.py`)
 - `SQLMap` for automated SQL injection detection
 - `Nikto` for web server and web-layer vulnerability scanning
 
@@ -15,8 +15,6 @@ The goal is educational: understand how blind SQL injection works, how scanners 
 blindqli/
 |-- blind_sqli.py
 |-- main.py
-|-- dataset_analyzer.py
-|-- dataset_analyzer2.py
 |-- core/
 |   |-- http_engine.py
 |   |-- diff_engine.py
@@ -297,3 +295,4 @@ nikto -h http://localhost:8081
 Use these techniques only in authorized environments (like DVWA lab instances you own or have explicit permission to test).
 
 Unauthorized scanning/testing is illegal and unethical.
+
